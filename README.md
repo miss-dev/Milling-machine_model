@@ -4,17 +4,14 @@
   First time here? Read GETTING_STARTED.md before anything else.
 -->
 
-> **This is a project template** for engineering projects that build a working system: robotics, embedded systems, IoT, AIoT, and AI / machine learning. It gives you a documentation structure, phase gates, templates and worked examples. Start with [GETTING_STARTED.md](GETTING_STARTED.md), and delete this note once your project has a name.
+Milling Machine Predictive Model 
 
-# TODO: Project Name
-
-> TODO: One sentence that says what your system does and who it is for.
+This is a machine learning model that predicts failure of a CNC milling machine based on it's operational data
 
 <!-- Add a photo, screenshot or GIF of your system here as soon as you have one, e.g.
      ![Final prototype](media/photos/2026-11-20-final-prototype.jpg) -->
 
-| | |
-|---|---|
+
 | **Current phase** | Phase 1 — Define <!-- Update at every phase gate: Define → Design → Build & Integrate → Test & Validate → Deliver --> |
 | **Team** | TODO: names, or just your name if working solo — see [team](docs/00-project/team.md) |
 | **Mentor** | TODO |
