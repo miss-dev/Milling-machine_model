@@ -1,0 +1,78 @@
+# ── Operating systems ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editors ─────────────────────────────────────────────────────────
+.idea/
+*.swp
+*~
+
+# ── Secrets (commit a *.example version instead) ────────────────────
+.env
+secrets.h
+**/secrets/*
+!**/secrets/*.example*
+# Device keys and certificates for cloud / IoT services. To commit a
+# public CA certificate or Keynote slides (.key), use: git add -f <file>
+*.key
+*.pem
+
+# ── Python ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ── Build output: CMake, ESP-IDF, Zephyr, ROS colcon / catkin ───────
+build/
+install/
+log/
+devel/
+
+# ── Arduino / PlatformIO / embedded C ───────────────────────────────
+.pio/
+*.o
+*.elf
+*.map
+
+# ── ESP-IDF / STM32CubeIDE ──────────────────────────────────────────
+sdkconfig.old
+managed_components/
+Debug/
+Release/
+
+# ── CMake ───────────────────────────────────────────────────────────
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+
+# ── Node.js (dashboards, web apps, IoT back ends) ───────────────────
+node_modules/
+
+# ── Machine learning ────────────────────────────────────────────────
+# Experiment-tracking output
+mlruns/
+wandb/
+lightning_logs/
+# Large model weights: keep them where your large-file policy says
+# (CONTRIBUTING.md). Small edge models (.tflite, .onnx) are not ignored.
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# ── KiCad (keep project, schematic and PCB files) ───────────────────
+*-backups/
+_autosave-*
+*.kicad_prl
+fp-info-cache
+*.lck
+*.bak
+
+# ── CAD lock and temporary files ────────────────────────────────────
+~$*
+*.tmp

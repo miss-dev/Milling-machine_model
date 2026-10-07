@@ -1,0 +1,2 @@
+id,item,part_number,subsystem,qty,unit_cost,total_cost,currency,supplier,link,status,ordered_by,date_ordered,datasheet,notes
+E01,EXAMPLE: Temperature and humidity sensor breakout,SHT31-DIS,Sensing,2,6.50,13.00,USD,TODO supplier,TODO link,planned,TODO,,datasheets/SHT31-DIS.pdf,EXAMPLE row - delete; second unit is a spare
