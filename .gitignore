@@ -76,3 +76,4 @@ fp-info-cache
 # ── CAD lock and temporary files ────────────────────────────────────
 ~$*
 *.tmp
+modelvenv
